@@ -1,0 +1,16 @@
+# SITER-CAE · Streamlit Community Cloud
+# Python recomendado: 3.11 o 3.12 (evita 3.14 si falla el build)
+
+streamlit>=1.40,<2
+pandas>=2.2,<3
+numpy>=1.26,<3
+networkx>=3.2,<4
+plotly>=5.24,<7
+mesa>=3.3,<4
+pydeck>=0.9,<1
+
+# GIS opcional (si el build de Cloud falla, comenta las 3 líneas siguientes;
+# la app sigue con HAS_GIS=False y GIS dummy / pydeck)
+geopandas>=1.0,<2
+shapely>=2,<3
+pyogrio>=0.10,<1
